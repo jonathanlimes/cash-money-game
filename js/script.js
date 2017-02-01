@@ -1,6 +1,6 @@
 function cashMoneyGame () {
   // append canvas to HTML
-  var canvas = document.createElement('canvas')
+  var canvas = document.querySelector('canvas')
   var ctx = canvas.getContext('2d')
   canvas.width = 640
   canvas.height = 640
@@ -235,9 +235,9 @@ function cashMoneyGame () {
       respawnOrange()
     }
     if (
-      player.x <= (firecracker.x + 96)
+      player.x <= (firecracker.x + 85)
       && firecracker.x <= (player.x + 32)
-      && player.y <= (firecracker.y + 96)
+      && player.y <= (firecracker.y + 85)
       && firecracker.y <= (player.y + 32)
     ) {
       player.x = 32
@@ -247,9 +247,9 @@ function cashMoneyGame () {
       respawnFirecracker()
     }
     if (
-      playerTwo.x <= (firecracker.x + 96)
+      playerTwo.x <= (firecracker.x + 85)
       && firecracker.x <= (playerTwo.x + 32)
-      && playerTwo.y <= (firecracker.y + 96)
+      && playerTwo.y <= (firecracker.y + 85)
       && firecracker.y <= (playerTwo.y + 32)
     ) {
       playerTwo.x = canvas.width - 32
@@ -314,9 +314,7 @@ function cashMoneyGame () {
     // playerTwo.x = (canvas.width/3)*2
     // playerTwo.y = canvas.height/2
     // banner.textContent = "CASH MONEY"
-    // timerBar.val(0)
-    // console.log(timerBar.val())
-    // can't figure out how to reset timer
+    // timerBar.reset()
   })
 
   // main function to initiate and loop the whole game
