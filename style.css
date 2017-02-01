@@ -2,7 +2,7 @@ body {
   font-family: 'Press Start 2P';
   text-align: center;
   color: orange;
-  font-size: 18px;
+  font-size: 15px;
   background-image: url('images/wallpaper.jpg');
   background-position: center;
   background-size: cover;
@@ -10,27 +10,31 @@ body {
 
 progress {
   background-color: green;
-  width: 640px;
-  height: 20px;
+  width: 648px;
+  height: 18px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-#banner {
-  display: inline-block;
-  align-content: center;
-  margin: 0;
 }
 
 button {
   background-color: orange;
   border: none;
   color: white;
-  padding: 8px 260px;
+  padding: 5px 264px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-family: 'Press Start 2P';
   font-size: 12px;
+}
+
+canvas {
+  border: 4px solid #222222;
+}
+
+#banner {
+  display: inline-block;
+  align-content: center;
+  margin: 0;
 }
