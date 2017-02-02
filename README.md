@@ -5,61 +5,41 @@
 
 ![CASH MONEY] (http://i.imgur.com/WEnVHQJ.png "Cash Money Logo")
 
-
 It's Chinese New Year, and you're on your way to riches by collecting red packets. You'll pocket $2 for each red packet you grab, but fat pockets will slow you down! Speed up by eating oranges along the way, but avoid the firecrackers or you'll be back where you first started, and a lot poorer!
 
 ## Gameplay
 
 **Player 1:**
 
-
 W - Move Up
-
 
 A - Move Left
 
-
 S - Move Down
 
-
 D - Move Right
-
-
-
+---
 **Player 2:**
-
 
 Up - Move Up
 
-
 Left - Move Left
-
 
 Down - Move Down
 
-
 Right - Move Right
-
-
-
+---
 **Red Packets** - Earns you $2, but slows you down.
-
 
 **Oranges** - Speeds you up.
 
-
 **Firecrackers** - Returns you to your original spot, and sets you back by $3!
-
-
-
+---
 **Timer** - 30 Seconds. Progress Bar shows the time left
-
 
 **Reset** - Hit the 'Reset Game' button
 
-
-
-Winner: Player that amasses the most amount of money before the timer runs out (30 seconds).
+**WINNER:** Player that amasses the most amount of money before the timer runs out (30 seconds).
 
 ## Development
 * HTML5 Canvas
