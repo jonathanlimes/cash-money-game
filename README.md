@@ -60,7 +60,7 @@ Right - Move Right
 * [Making Sprite-Based Games with Canvas by JLongSter] (http://jlongster.com/Making-Sprite-based-Games-with-Canvas)
 * [Creating and Styling Progress Bars] (http://www.hongkiat.com/blog/html5-progress-bar/)
 * [OpenGameArt.org] (http://opengameart.org/)
-* [PixelArtMaker.com] (http://pixelartmaker.com/)
+* [Logo Generator] (http://www6.flamingtext.com/)
 * [Tiled: Map Editor] (http://www.mapeditor.org/)
 * [Bfxr: Sound Effects for Games] (http://www.bfxr.net/)
 * [Skeleton CSS Framework] (http://getskeleton.com/)
