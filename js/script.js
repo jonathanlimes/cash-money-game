@@ -297,7 +297,7 @@ function cashMoneyGame () {
       alert("Draw! Hit 'Reset Game' to play again!")
       $('#banner').css('font-size', '100px')
     }
-    // $('canvas').remove()
+    $('canvas').remove()
   }
 
   // run timer
