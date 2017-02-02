@@ -3,12 +3,13 @@ function cashMoneyGame () {
   var canvas = document.querySelector('canvas')
   var ctx = canvas.getContext('2d')
   canvas.width = 640
-  canvas.height = 640
+  canvas.height = 576
   canvas.lBound = 32
-  canvas.rBound = 640 - 64
+  canvas.rBound = canvas.width - 64
   canvas.tBound = 32
-  canvas.bBound = 640 - 64
-  document.body.appendChild(canvas)
+  canvas.bBound = canvas.height - 64
+  var leftDiv = document.querySelector('#left')
+  leftDiv.appendChild(canvas)
 
   // assign sound files
   var bgMusic = new Audio('sounds/bgMusic.mp3')
@@ -22,7 +23,7 @@ function cashMoneyGame () {
   backgroundImg.onload = function () {
     isBackgroundReady = true
   }
-  backgroundImg.src = 'images/map.png'
+  backgroundImg.src = 'images/mapFinal.png'
 
   var isPlayerReady = false
   var playerImg = new Image()
@@ -286,17 +287,17 @@ function cashMoneyGame () {
     if (moneyP1 > moneyP2) {
       banner.textContent = 'P1 WINS WITH $' + moneyP1 + '!'
       alert('Player 1 wins!')
-      $('#banner').css('font-size', '70px')
+      $('#banner').css('font-size', '50px')
     } else if (moneyP2 > moneyP1) {
       banner.textContent = 'P2 WINS WITH $' + moneyP2 + '!'
       alert('Player 2 wins!')
-      $('#banner').css('font-size', '70px')
+      $('#banner').css('font-size', '50px')
     } else {
       banner.textContent = 'DRAW!'
       alert("Draw! Hit 'Reset Game' to play again!")
       $('#banner').css('font-size', '100px')
     }
-    $('canvas').remove()
+    // $('canvas').remove()
   }
 
   // run timer
