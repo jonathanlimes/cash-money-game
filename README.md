@@ -5,11 +5,11 @@
 
 ![CASH MONEY] (http://i.imgur.com/WEnVHQJ.png "Cash Money Logo")
 
-It's Chinese New Year, and you're on your way to riches by collecting red packets. You'll pocket $2 for each red packet you grab, but fat pockets will slow you down! Speed up by eating oranges along the way, but avoid the firecrackers or you'll be back where you first started, and a lot poorer!
+It's Chinese New Year, and you're on your way to riches by collecting red packets. You'll pocket $2 for each red packet you grab, but fat pockets will slow you down! Speed up by eating oranges along the way, but avoid the firecrackers or you'll be back where you first started, and a lot poorer! Collect more money than your opponent within 30 seconds to win!
 
 ## Gameplay
 
-**Player 1:**
+**PLAYER 1: Starts from Top-Left Corner**
 
 W - Move Up
 
@@ -21,7 +21,7 @@ D - Move Right
 
 ---
 
-**Player 2:**
+**PLAYER 2: Starts from Bottom-Right Corner**
 
 Up - Move Up
 
@@ -33,17 +33,17 @@ Right - Move Right
 
 ---
 
-**Red Packets** - Earns you $2, but slows you down.
+**Red Packets:** Earns you $2, but slows you down.
 
-**Oranges** - Speeds you up.
+**Oranges:** Speeds you up.
 
-**Firecrackers** - Returns you to your original spot, and sets you back by $3!
+**Firecrackers:** Returns you to your original spot, and sets you back by $3!
 
 ---
 
-**Timer** - 30 Seconds. Progress Bar shows the time left
+**Timer:** 30 Seconds. Progress Bar shows the time left
 
-**Reset** - Hit the 'Reset Game' button
+**Reset:** Hit the 'Reset Game' button
 
 **WINNER:** Player that amasses the most amount of money before the timer runs out (30 seconds).
 
@@ -53,7 +53,7 @@ Right - Move Right
 * Skeleton CSS Framework for non-canvas arrangement of content
 * index.html / style.css / main.js
 
-## References and Tools
+## References, Tools, and Inspiration
 * [How to Make a Simple HTML5 Canvas Game by Matt Hackett] (http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)
 * [MDN Canvas Tutorial] (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 * [Making Sprite-Based Games with Canvas by JLongSter] (http://jlongster.com/Making-Sprite-based-Games-with-Canvas)
