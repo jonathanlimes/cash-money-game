@@ -18,7 +18,9 @@ A - Move Left
 S - Move Down
 
 D - Move Right
+
 ---
+
 **Player 2:**
 
 Up - Move Up
@@ -28,13 +30,17 @@ Left - Move Left
 Down - Move Down
 
 Right - Move Right
+
 ---
+
 **Red Packets** - Earns you $2, but slows you down.
 
 **Oranges** - Speeds you up.
 
 **Firecrackers** - Returns you to your original spot, and sets you back by $3!
+
 ---
+
 **Timer** - 30 Seconds. Progress Bar shows the time left
 
 **Reset** - Hit the 'Reset Game' button
