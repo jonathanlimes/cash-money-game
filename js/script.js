@@ -286,18 +286,22 @@ function cashMoneyGame () {
   function gameOver () {
     if (moneyP1 > moneyP2) {
       banner.textContent = 'P1 WINS WITH $' + moneyP1 + '!'
-      alert('Player 1 wins!')
       $('#banner').css('font-size', '50px')
     } else if (moneyP2 > moneyP1) {
       banner.textContent = 'P2 WINS WITH $' + moneyP2 + '!'
-      alert('Player 2 wins!')
       $('#banner').css('font-size', '50px')
     } else {
       banner.textContent = 'DRAW!'
-      alert("Draw! Hit 'Reset Game' to play again!")
       $('#banner').css('font-size', '100px')
     }
     $('canvas').remove()
+    var coverBlock = document.createElement('div')
+    coverBlock.style.width = '640px'
+    coverBlock.style.height = '576px'
+    coverBlock.style.backgroundImage = "url('images/mapFinal.png')"
+    coverBlock.style.border = '4px solid #222222'
+    coverBlock.style.display = 'inline-block'
+    leftDiv.appendChild(coverBlock)
   }
 
   // run timer
