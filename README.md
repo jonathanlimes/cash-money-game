@@ -66,3 +66,8 @@ Right - Move Right
 * [Skeleton CSS Framework] (http://getskeleton.com/)
 * [Viewport Sized Typography] (https://css-tricks.com/viewport-sized-typography/)
 * [Media Query for Responsive Web Design] (http://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+## What I would've done differently
+* Declare `keysDown` as an array instead of an object
+* CSS styling could’ve been improved to make it more responsive to the user’s screen - Could have rearranged divs entirely upon hitting a minimum screen size
+* I would do `renderObjs()` very differently. The plan was to use different sprite images for the players when moving in different directions. Need to improve my understanding of Canvas!
