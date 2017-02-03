@@ -71,3 +71,4 @@ Right - Move Right
 * Declare `keysDown` as an array instead of an object
 * CSS styling could’ve been improved to make it more responsive to the user’s screen - Could have rearranged divs entirely upon hitting a minimum screen size
 * I would do `renderObjs()` very differently. The plan was to use different sprite images for the players when moving in different directions. Need to improve my understanding of Canvas!
+* Add obstacles to restrict movement on the game board
