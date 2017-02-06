@@ -326,7 +326,7 @@ function cashMoneyGame () {
     $(bgMusic).get(0).play()
     var now = Date.now()
     var changeInTime = now - then
-    updateGameObjs(changeInTime / 1000)
+    updateGameObjs(changeInTime / 1000) // param becomes the modifier
     renderObjs()
     then = now
     requestAnimationFrame(loopGame)
