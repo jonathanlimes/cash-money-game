@@ -1,6 +1,6 @@
 # CA$H MONEY
 
-[Live Demo Here](https://wdi-sg.github.io/wdi-project-1-jonathanlimes/)
+[Live Demo Here](https://jonathanlimes.github.io/cash-money-game/)
 
 
 ![CASH MONEY](http://i.imgur.com/Q687kMP.png "Cash Money Logo")
