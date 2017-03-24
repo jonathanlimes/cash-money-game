@@ -1,9 +1,9 @@
 # CA$H MONEY
 
-[Live Demo Here] (https://wdi-sg.github.io/wdi-project-1-jonathanlimes/)
+[Live Demo Here](https://wdi-sg.github.io/wdi-project-1-jonathanlimes/)
 
 
-![CASH MONEY] (http://i.imgur.com/Q687kMP.png "Cash Money Logo")
+![CASH MONEY](http://i.imgur.com/Q687kMP.png "Cash Money Logo")
 
 It's Chinese New Year, and you're on your way to riches by collecting red packets. You'll pocket $2 for each red packet you grab, but fat pockets will slow you down! Speed up by eating oranges along the way, but avoid the firecrackers or you'll be back where you first started, and a lot poorer! Collect more money than your opponent within 30 seconds to win!
 
@@ -52,20 +52,20 @@ Right - Move Right
 * Skeleton CSS Framework
 * A bit of Responsive Web Design to have everything fit onscreen regardless of browser size
 * index.html / style.css / script.js
-* [View Code Workflow here] (https://docs.google.com/presentation/d/1uzdkDOVF2_yVdmQA22r5RG9DANF_smVhi5z-qyL131I/edit?usp=sharing)
+* [View Code Workflow here](https://docs.google.com/presentation/d/1uzdkDOVF2_yVdmQA22r5RG9DANF_smVhi5z-qyL131I/edit?usp=sharing)
 
 ## References, Tools, and Inspiration
-* [How to Make a Simple HTML5 Canvas Game by Matt Hackett] (http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)
-* [MDN Canvas Tutorial] (https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
-* [Making Sprite-Based Games with Canvas by JLongSter] (http://jlongster.com/Making-Sprite-based-Games-with-Canvas)
-* [Creating and Styling Progress Bars] (http://www.hongkiat.com/blog/html5-progress-bar/)
-* [OpenGameArt.org] (http://opengameart.org/)
-* [Logo Generator] (http://www6.flamingtext.com/)
-* [Tiled: Map Editor] (http://www.mapeditor.org/)
-* [Bfxr: Sound Effects for Games] (http://www.bfxr.net/)
-* [Skeleton CSS Framework] (http://getskeleton.com/)
-* [Viewport Sized Typography] (https://css-tricks.com/viewport-sized-typography/)
-* [Media Query for Responsive Web Design] (http://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* [How to Make a Simple HTML5 Canvas Game by Matt Hackett](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)
+* [MDN Canvas Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
+* [Making Sprite-Based Games with Canvas by JLongSter](http://jlongster.com/Making-Sprite-based-Games-with-Canvas)
+* [Creating and Styling Progress Bars](http://www.hongkiat.com/blog/html5-progress-bar/)
+* [OpenGameArt.org](http://opengameart.org/)
+* [Logo Generator](http://www6.flamingtext.com/)
+* [Tiled: Map Editor](http://www.mapeditor.org/)
+* [Bfxr: Sound Effects for Games](http://www.bfxr.net/)
+* [Skeleton CSS Framework](http://getskeleton.com/)
+* [Viewport Sized Typography](https://css-tricks.com/viewport-sized-typography/)
+* [Media Query for Responsive Web Design](http://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
 ## What I would've done differently
 * Declare `keysDown` as an array instead of an object
